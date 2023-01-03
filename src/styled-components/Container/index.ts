@@ -7,6 +7,7 @@ type CustomProps = {
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  background: ${({ darkMode }: CustomProps) => (darkMode ? "black" : "white")};
+  background: ${({ darkMode }: CustomProps) =>
+    darkMode ? "#142d4c" : "#a2a8d3"};
   color: ${({ darkMode }: CustomProps) => (darkMode ? "white" : "black")};
 `;
